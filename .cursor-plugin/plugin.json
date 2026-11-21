@@ -1,0 +1,46 @@
+{
+  "name": "ace-music",
+  "displayName": "ACE Music by Ace Data Cloud",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
+  "author": {
+    "name": "Ace Data Cloud Dev",
+    "email": "dev@acedata.cloud"
+  },
+  "homepage": "https://platform.acedata.cloud/services/acemusic",
+  "repository": "https://github.com/AceDataCloud/ACEMusicCursor",
+  "license": "MIT",
+  "logo": "assets/icon.png",
+  "keywords": [
+    "ace-music",
+    "acemusic",
+    "music",
+    "audio",
+    "lyrics",
+    "acedatacloud"
+  ],
+  "category": "integrations",
+  "tags": [
+    "ace-music",
+    "music",
+    "audio",
+    "acedatacloud"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "ACEDATACLOUD_API_TOKEN": {
+        "type": "string",
+        "title": "Ace Data Cloud API token",
+        "description": "Raw service key with ACE Music access from https://platform.acedata.cloud/console/applications"
+      }
+    },
+    "required": [
+      "ACEDATACLOUD_API_TOKEN"
+    ]
+  },
+  "mcpServers": "./mcp.json"
+}
