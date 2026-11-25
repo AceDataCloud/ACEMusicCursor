@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "acemusic": {
+      "type": "http",
+      "url": "https://acemusic.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ACEDATACLOUD_API_TOKEN}"
+      }
+    }
+  }
+}
